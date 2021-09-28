@@ -1,0 +1,4 @@
+Ini adalah file CV
+a.perusahaan google
+b.perusahaan shopee
+c.perusahaan ASUS

@@ -1,0 +1,12 @@
+
+1.Program_koversi_suhu_ke_celcius.
+
+2. Deklarasi
+   integer Farenheit(F),Celcius(C),N;
+3. READ "Besar Temperatur" valeu type farenheit(F) and celcius(C);
+4. IF conversion Farenheit to celcius then;
+	CALCULATE C =( N - 32)*( 5/9);
+   ELSE conversion Celcius to Celcius then;
+	CALCULATE C =N
+5. DISPLAY " Celcius "
+ 

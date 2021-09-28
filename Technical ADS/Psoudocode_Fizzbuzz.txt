@@ -1,0 +1,12 @@
+STORE n with any Values;
+i = 0;
+
+Do i++
+	IF i % 3 = 0
+		DISPLAY "Fizz"
+	ElSE IF i% 5 = 0
+		DISPLAY "Buzz"
+	ELSE IF i % 15 = 0
+		DISPLAY "FizzBuzz"
+	ELSE DISPLAY i
+WHILE i <= n

@@ -1,0 +1,15 @@
+START
+
+	NUMBER Nilai_Awal,Nilai_Akhir
+	INPUT Nilai_Awal (0-100)
+	IF Nilai_Awal < 68 THEN
+	   DISPLAY Nilai_Awal
+	ELSE IF Nilai_Awal >= 68 && Nilai mod 5 == 3 THEN
+	   DISPLAY  Nilai_Akhir = Nilai_Awal + 2
+	ELSE IF Nilai_Awal > 70 && nilai mod 5 == 4 THEN
+	   DISPLAY  Nilai_Akhir = Nilai_Awal + 1
+	ELSE
+           DISPLAY  Nilai_Awal 
+END
+
+

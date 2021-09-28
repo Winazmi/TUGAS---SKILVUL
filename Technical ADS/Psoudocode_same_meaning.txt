@@ -1,0 +1,49 @@
+FUNCTION Palindroms(input N:integer)-->boolean
+   
+ {Mengembalikan nilai true jika huruf dalam larik palindarom
+ 
+  ,false jika huruf dalam larik bukan palindrom
+
+   }
+
+ 
+  DEKLARASI     
+        
+	pal :boolean
+  
+	i,j :integer
+         
+	A   :array[1...N] of String
+ 
+
+   ALGORITMA
+ 
+	Read(N)
+        
+	for i <-- 0 to N do
+             
+	 Read(A[i])
+         
+	endfor
+         	
+	i <-- 0
+        
+	j <-- N-1
+         
+	pal <-- true;
+         
+	while (i<= j) and  (pal) do
+             
+	  if (A[i]) # (A[j]) then
+                 
+	    pal <-- false
+            
+ 	  endif
+             
+	  i <-- i+1
+             
+	  j <-- j-1
+         
+	endwhile
+       
+  	return pal;

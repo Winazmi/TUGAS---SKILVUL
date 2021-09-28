@@ -1,0 +1,1 @@
+ini merupakan bagian git basic menambahkan file lagi
