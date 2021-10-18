@@ -1,0 +1,47 @@
+Apa itu responsive web design?
+jawab :
+    Responsive Web Design (RWD) adalah sebuah cara atau pembuatan suatu web desain yang bertujuan memberikan
+    pengalaman penggunaan yang optimal dalam berbagai device, baik mobile,tablet,komputer ataupun Leptop.
+    Web akan beradaptasi jika dibuka dari perangkat mobile berukuran kecil,ketika menggunakan perangkat komputer
+    maka akan beradaptasi sesuai ukuran monitornya.Hal yang akan berubah adalah ukuran huruf, user interface, 
+    gambar dan tata letak akan menyesuaikan dengan lebar layar dan resolusi layar monitor yang tersedia.
+    Sehigga pengguna akan mudah membaca,nyaman dan melihat informasi web tersebut.
+Sebutkan apa saja relative units yang dimiliki oleh CSS?
+jawab: 
+    Relative units yang dimiliki oleh CSS diantaranya 
+        -(em) Relatif terhadap ukuran font elemen (2em berarti 2 kali ukuran font saat ini)
+        -(ex) Relatif terhadap x-height dari font saat ini (jarang digunakan)
+        -(ch) Relatif terhadap lebar "0" (nol)
+        -(rem) Relatif terhadap ukuran font elemen root
+        -(vw) Relatif terhadap 1% dari lebar viewport*
+        -(vh) Relatif terhadap 1% dari ketinggian viewport*
+        -(vmin) Relatif terhadap 1% dari viewport* dimensi yang lebih kecil
+        -(vmax) Relatif terhadap 1% dari viewport* dimensi yang lebih besar
+        -(% )Relatif terhadap elemen induk
+
+Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+jawab:
+    Breakpoint adalah perubahan yang terjadi pada tampilan saat berganti device atau ukuran lebar piksel,
+    biasanya berbentuk batasan antara tablet, moblie ,atau PC/Laptop. Kita dapat membuat media query untuk
+    membuat batasanya berupa batasan maksimal atau batasan minimalnya,ini bisa dibuat dalam file CSS ataupun
+    dalam HTML di dalam <style></style>.
+
+    contoh:
+        <style>
+
+        /* Membuat tampilan ketika width pada device lebih atau sama dengan 500px dan ,aksimum 700px*/
+        /* dan tidak akan dijalankan ketika width lebih dari 700px*/
+            
+            @media  screen and (max-width: 500px) and(max-width: 700px){
+                body {
+                bg-color:red;
+
+        </style>
+
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+jawab:
+    Kita dapat menggunkan flexbox,dan mengaturnya.
+
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+jawab:
+    Kita dapat menggunkan grid,dan mengaturnya sesuai keingnan atau desain.
