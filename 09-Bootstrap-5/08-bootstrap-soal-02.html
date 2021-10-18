@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>ACEH</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="data:image/png;base64,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"
+        alt="logo" style="width:25px;" height="25px" radius="25%">  
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">TAKENGON</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SABANG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TAPAK TUAN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lainnya</a>
+          </li>
+        
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel -->
+  <div class="d-none d-lg-block">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active img-container" data-bs-interval="10000">
+          <img
+            src="https://images.unsplash.com/photo-1591017683260-655b616bfb17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"     class="w-100 vh-100" alt="...">
+        </div>
+        <div class="carousel-item img-container" data-bs-interval="2000">
+          <img
+            src="https://images.unsplash.com/photo-1599537504477-ec5a7bb32321?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWNlaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            class="w-100 vh-100" alt="...">
+        </div>
+        <div class="carousel-item img-container">
+          <img
+            src="https://images.unsplash.com/photo-1627276642559-8fa34631dd93?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFjZWh8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            class="w-100 vh-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- main section -->
+  <div class="container">
+    <div class="row p-5">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h4 class="fw-normal">Daerah-Daerah Aceh</h4>
+        <div class="row">
+
+          <!-- Card 1 -->
+          <div class="col-lg-12 col-md-6 col-sm-6">
+            <div class="card w-100 mb-3 mu-5">
+              <div class="row g-0">
+                <div class="col-md-12 col-lg-4">
+                  <div class="img-container">
+                    <img
+                      src="http://kostisolo.co.id/kosti-content/uploads/takengon_10410.jpg"alt="...">
+                  </div>
+                </div>
+                <div class="col-md-8 col-lg-8">
+                  <div class="card-body h-100">
+                    <h5 class="card-title">TAKENGON</h5>
+                    <p class="card-text">Takengon merupakan ibu kota Kabupaten Aceh Tengah, Provinsi Aceh, Indonesia.
+                    Takengon terkenal dengan kopinya yang nikmat yaitu kopi Gayo.</p>
+                    <p class="card-text"><small class="text-muted">22 Agustus 2021</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="col-lg-12 col-md-6 col-sm-6">
+            <div class="card w-100 mb-3 mu-5">
+              <div class="row g-0">
+                <div class="col-md-12 col-lg-4">
+                  <div class="img-container">
+                    <img
+                      src="https://atjehwatch.com/wp-content/uploads/2020/05/SABANG3.jpeg"alt="...">
+                  </div>
+                </div>
+                <div class="col-md-8 col-lg-8">
+                  <div class="card-body h-100">
+                    <h5 class="card-title">SABANG</h5>
+                    <p class="card-text">Sabang adalah kota yang terletak di Pulau Weh dan merupakan pintu gerbang di
+                    kawasan ujung barat Indonesia.</p>
+                    <p class="card-text"><small class="text-muted">22 Agustus 2021</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="col-lg-12 col-md-6 col-sm-6">
+            <div class="card w-100 mb-3 mu-5">
+              <div class="row g-0">
+                <div class="col-md-12 col-lg-4">
+                  <div class="img-container">
+                  <img
+                    src="https://anteroaceh.com/files/images/whatsapp-image-2020-11-17-at-14-28-20.jpeg"
+                    class="img-fluid rounded-start" alt="..."> </div>
+                </div>
+                <div class="col-md-8 col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">TAPAK TUAN</h5>
+                    <p class="card-text">Tapak tuan merupakan ibu kota Aceh Selatan. Kota ini terletak
+                      sekitar 500 kilometer dari ibu kota Aceh, Banda Aceh.</p>
+                    <p class="card-text"><small class="text-muted">21 agustus 2021</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div class="col-lg-12 col-md-6 col-sm-6">
+            <div class="card w-100 mb-3 mu-5">
+              <div class="row g-0">
+                <div class="col-md-12 col-lg-4">
+                  <div class="img-container">
+                  <img
+                    src="https://klikkabar.com/wp-content/uploads/2021/02/pulau-rangit-theworldtravelguy.jpg"
+                    class="img-fluid rounded-start" alt="..."> </div>
+                </div>
+                <div class="col-md-8 col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">SINGKIL</h5>
+                    <p class="card-text">Kabupaten Aceh Singkil adalah salah satu kabupaten di Provinsi Aceh, Indonesia.</p>
+                    <p class="card-text"><small class="text-muted">21 agustus 2021</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="col-4 d-none d-lg-block">
+        <nav class="nav flex-column">
+          <a class="nav-link active" href="#">An item</a>
+          <hr class="dropdown-divider">
+          </li>
+          <a class="nav-link" href="#">A second item</a>
+          <hr class="dropdown-divider">
+          </li>
+          <a class="nav-link" href="#">A third item</a>
+          <hr class="dropdown-divider">
+          </li>
+          <a class="nav-link" href="#">And a fifth one</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
