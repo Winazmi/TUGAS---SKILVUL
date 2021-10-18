@@ -1,0 +1,61 @@
+Apa itu CSS Framework?
+jawab:CSS framework adalah kerangka kerja yang fungsinya untuk memudahkan
+     ketika kita ingin mendesain website atau aplikasi, di bagian layout dan tema.
+     CSS framework berisikan kode CSS yang sudah siap pakai,Mulai dari sistem grid, 
+     pola user interface (UI) yang interaktif, tipografi untuk website, tombol, ikon, dan lainya.
+Apakah bootstrap satu-satunya CSS Framework yang dapat kita gunakan?
+jawab:Tidak hanya bootstrap,masih ada beberapa Framework CSS yang dapat digunkan untuk memudahkan keitaka membuat tampilan Web atau aplikasi.
+
+Sebutkan beberapa CSS Framework selain Bootstrap
+jawab:
+Framework CSS selain Bootstrap adalah :
+    - Materialize CSS
+    - Tailwind
+    - Skeleton
+    - PureCSS
+    - Foundation
+    - Milligram
+    - UIKit
+    - Bulma
+    - Semantic UI
+Bagaimana tata cara penggunaan Bootstrap?
+jawab:
+Pengguna bootstrap terbagi mennjadi beberapa cara ,yaitu:
+    -Menggunkan bootstrap dengan CDN(conten delebery network),cara ini adalah cara yang paling mudah cukup mencopy link CDN
+     Bootstrap kedalam file HTML tepatnya di didalam <head></head>.
+     coontoh:
+            <head>
+                <!-- CSS Bootstrap -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+            </head>
+            <body>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+            </body>
+
+    -Download Bootstrap dengan manual, cara ini kita harus mendownlaod dulu bootstrap pada website setelah itu ekstrak -- > copy 
+     Js dan Css ke dalam diroktery --> pada html kita link href ke file Css dan Js-nya.
+     contoh:
+            <head>
+            ....
+            <link rel="stylesheet" href="css/bootstrap.min.css" />
+            </head>
+            <body>
+            .....
+            <script src="js/bootstrap.min.js"></script>
+            </body>
+
+    -Menggunkan NPM untuk mengisntal bootstrap kedalam vscod setalah semua selesai barulah kita tautkan link dari node_modulusnya.
+    contooh:
+            <head>
+            ....
+            <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+            </head>
+
+            <body>
+            ....
+            <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+            </body>
