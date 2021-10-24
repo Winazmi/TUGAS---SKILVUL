@@ -12,6 +12,7 @@ console.log(sumOfArray(arr1));
 console.log(sumOfArray(arr2));
 
 // 02
+
 const avg1 = sumOfArray(arr1) / arr1.length;
 const avg2 = sumOfArray(arr2) / arr2.length;
 function countAboveAvg(arr, avg) {

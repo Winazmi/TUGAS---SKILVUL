@@ -1,4 +1,5 @@
 // Soal - 01
+
 const arr = [1, 2, 3];
 const arr2 = [8, 1, 5, 7];
 function reverse(num) {

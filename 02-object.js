@@ -30,7 +30,6 @@ for(let i=0; i < person.favDrinks.length; i++){
 
 
 // soal 02
-
 function getObjectValue(obj,path) {
     path = path.split(".");
     let cafe = obj;
