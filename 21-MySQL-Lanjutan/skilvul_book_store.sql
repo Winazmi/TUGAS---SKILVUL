@@ -35,14 +35,15 @@ SELECT * FROM buku INNER JOIN penerbit ON buku.penerbit = penerbit.id;
 
 -- Select Left Join --
 SELECT * FROM buku LEFT JOIN penerbit ON buku.penerbit = penerbit.id;
+
 -- Select Right Join --
 SELECT * FROM buku RIGHT JOIN penerbit ON buku.penerbit = penerbit.id;
 
 -- Select MAX --
-SELECT max(harga) FROM buku WHERE stock < 10;
+SELECT MAX(harga) FROM buku WHERE stock < 10;
 
 -- Select MIN --
-SELECT min(harga) FROM buku;
+SELECT MIN(harga) FROM buku;
 
 -- Select Count --
 SELECT count(id) FROM buku WHERE harga < 100000;
