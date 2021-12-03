@@ -18,7 +18,7 @@ CREATE TABLE penulis (
     kota varchar(50) null
     );
 
--- Create Table Buku --
+-- Create Tabel Buku --
 CREATE TABLE buku (
     id int(10) not null auto_increment primary key,
     ISBN varchar(50) null,
@@ -30,6 +30,7 @@ CREATE TABLE buku (
     constraint fk_buku_penulis_id foreign key(id) references penulis(id),
     constraint fk_buku_penerbit_penerbit foreign key(penerbit) references penerbit(id)
     );
+    
 -- Select Inner Join --
 SELECT * FROM buku INNER JOIN penerbit ON buku.penerbit = penerbit.id;
 
