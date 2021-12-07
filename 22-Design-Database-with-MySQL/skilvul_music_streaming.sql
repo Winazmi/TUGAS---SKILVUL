@@ -1,8 +1,8 @@
 -- CREATE DATABASE --
-CREATE DATABASE skilvul_music;
+CREATE DATABASE skilvul_music_streaming;
 
 -- USE DATABASE --
-USE skilvul_music;
+USE skilvul_music_streaming;
 
 -- CREATE TABLE User--
 CREATE TABLE `User` (
