@@ -1,3 +1,9 @@
+-- CREATE DATABASE --
+CREATE DATABASE skilvul_music;
+
+-- USE DATABASE --
+USE skilvul_music;
+
 -- CREATE TABLE User--
 CREATE TABLE `User` (
   `user_id` int,
