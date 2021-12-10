@@ -1,4 +1,4 @@
-Jawablah pertanyaan di bawah ini:
+Pertannyaan
 1. Apa perbedaan antara static web server dan dynamic web server?
 2. Jelaskan arsitektur static site dan dynamic site
 3. Apa saja yang dapat kita buat pada sisi server?
