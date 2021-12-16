@@ -1,0 +1,7 @@
+- URL heroku :
+    https://todo-hewan.herokuapp.com/
+
+- URL masing-masing endpoint :
+    https://todo-hewan.herokuapp.com/hewan
+
+    https://todo-hewan.herokuapp.com/hewan/3
