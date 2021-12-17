@@ -1,10 +1,4 @@
-1. Buatlah skema untuk kebutuhan data profile pengguna aplikasi *Skiljek* dan relasi apakah yang tepat untuk data tersebut?
-Data yang dibutuhkan adalah:
-- **Full Name**
-- **Email**
-- **Phone Number**
-
-**Jawab:**
+1. **Relasi:**
     Relasi yang tepat adalah One-to-one.
 
 **Skema Data**:
@@ -17,13 +11,7 @@ Data yang dibutuhkan adalah:
 }
 ```
 
-2. Buatlah skema untuk kebutuhan data alamat pengguna *SkilShop* dimana alamat yang dapat didaftarkan maksimal 2 alamat. Jelaskan juga relasi apakah yang tepat untuk data tersebut?
-Data yang dibutuhkan adalah:
-- **Full Name**
-- **Phone Number**
-- **Address (Max 2)**
-
-**Jawab:**
+2. **Relasi:**
     Relasi yang tepat adalah One To Many
 
 **Skema Data**:
