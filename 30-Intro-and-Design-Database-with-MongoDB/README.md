@@ -70,5 +70,5 @@
     "cinemaName": "CGF",
     "films": ["Venom 2", "Spiderman No Way Home"],
     "location": "Mall Kelapa Gading"
-},
+}
 ```
