@@ -1,10 +1,2 @@
-# 31-Build-Web-Service
-
-## Get Started
-Run server : `npm start`
-
-## API Documentation
-https://documenter.getpostman.com/view/18558993/UVRGCiQM
-
-## HEROKU URL
+Link Deploy 
 https://tugascourses.herokuapp.com/
